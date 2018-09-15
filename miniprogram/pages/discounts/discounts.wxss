@@ -1,0 +1,30 @@
+/* pages/discounts/discounts.wxss */
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0rpx;
+  padding: 0rpx;
+  height: 80rpx;
+  width: 100%;
+  border-top: 2rpx solid rgb(167, 161, 161);
+  background-color: black;
+}
+
+.body {
+  height: 100%;
+  width: 33.33%;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  font-family: 宋体;
+  letter-spacing: 3rpx;
+  text-align: center;
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  margin: 10rpx;
+  padding-left: 18rpx;
+}

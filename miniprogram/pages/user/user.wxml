@@ -1,0 +1,25 @@
+<!--pages/user/user.wxml-->
+<view class='content-all'>
+  <view class='top-user-info'>
+    <view class='user-img'>
+      <image src='{{userHead}}'></image>
+    </view>
+    <view class='user-info' >
+      <text class='user-name' style='color:#ffffff'>未登录 \n</text>
+      <text class='user-score' style='color:#7a7365'>绑定手机号</text>
+    </view>
+  </view>
+  <view class='order-btn' >
+    <view class='order-info'>
+      <text class='my-order-title'>我的订单</text>
+      <text class='check-more'>查看更多订单>></text>
+    </view>
+    <view class='order-workflow'>
+      <orderButton bindtap='showDetail' data-orderType='1' class='order-btn-co' imageUrl='/img/ico/todo.png' buttonName='未完成' />
+      <orderButton bindtap='showDetail' data-orderType='2' class='order-btn-co' imageUrl='/img/ico/advice.png' buttonName='待评价' />
+      <orderButton bindtap='showDetail' data-orderType='3' class='order-btn-co' imageUrl='/img/ico/success.png' buttonName='已完成' />
+      <orderButton bindtap='showDetail' data-orderType='4' class='order-btn-co' imageUrl='/img/ico/cancel.png' buttonName='已取消' />
+    </view>
+  </view>
+  <view class='shop-img'></view>
+</view>

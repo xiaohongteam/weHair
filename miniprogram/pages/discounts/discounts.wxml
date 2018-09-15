@@ -1,0 +1,21 @@
+<!--pages/discounts/discounts.wxml-->
+<view class='head'>
+<view class='body' style="color: {{choose==1?'rgb(240, 239, 218)':'rgb(167, 161, 161)'}}" data-id='1' bindtap='change'>未使用</view>
+<view class='body' style="color: {{choose==2?'rgb(240, 239, 218)':'rgb(167, 161, 161)'}}" data-id='2' bindtap='change'>已使用</view>
+<view class='body' style="color: {{choose==3?'rgb(240, 239, 218)':'rgb(167, 161, 161)'}}" data-id='3' bindtap='change'>已过期</view>
+</view>
+<view class='base' wx:if="{{choose==1}}">
+  <block wx:for="{{wsy}}" wx:for-item="at" wx:key="id">
+    <discounts title='{{at.title}}' give='{{at.give}}' cost='{{at.cost}}' oldcost='{{at.oldcost}}' state="{{at.state=='1'?'立即使用':(at.state=='2'?'已使用':'已过期')}}" />
+  </block>
+</view>
+<view class='base' wx:if="{{choose==2}}">
+  <block wx:for="{{ysy}}" wx:for-item="at" wx:key="id">
+    <discounts title='{{at.title}}' give='{{at.give}}' cost='{{at.cost}}' oldcost='{{at.oldcost}}' state="{{at.state=='1'?'立即使用':(at.state=='2'?'已使用':'已过期')}}" />
+  </block>
+</view>
+<view class='base' wx:if="{{choose==3}}">
+  <block wx:for="{{ygq}}" wx:for-item="at" wx:key="id">
+    <discounts title='{{at.title}}' give='{{at.give}}' cost='{{at.cost}}' oldcost='{{at.oldcost}}' state="{{at.state=='1'?'立即使用':(at.state=='2'?'已使用':'已过期')}}" />
+  </block>
+</view>

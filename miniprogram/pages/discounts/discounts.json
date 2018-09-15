@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "discounts": "/components/discounts/discountsItem"
+  }
+}

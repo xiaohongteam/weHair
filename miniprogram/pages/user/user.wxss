@@ -1,0 +1,61 @@
+/* pages/user/user.wxss */
+.content-all{
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-user-info{
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  background-color: #202020;
+}
+
+.user-img{
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.user-info{
+  display: inline-block;
+  height: 60px;
+  line-height: 30px;
+  color: white;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.order-btn{
+  /* width: 100%; */
+  padding: 10px 20px;
+  background-color:  white;
+}
+.order-info{
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.my-order-title{
+
+}
+.check-more{
+  float: right;
+  color: #6a6a6a;
+}
+.order-workflow{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* .order-btn-co{
+  margin-left: 11%;
+} */

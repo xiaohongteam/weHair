@@ -1,0 +1,7 @@
+<!--components/orderButton.wxml-->
+<view class='order-button'>
+  <view class='btn-img'>
+    <image mode='aspectFit' class='order-btn-img' src='{{imageUrl}}'></image>
+  </view>
+  <text class='order-btn-name'>{{buttonName}}</text>
+</view>

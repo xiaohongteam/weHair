@@ -1,0 +1,61 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/product/product",
+    "pages/activity/activity",
+    "pages/discounts/discounts",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "",
+    "navigationBarBackgroundColor": "",
+    "navigationBarTitleText": "weHair",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#fff",
+    "backgroundColor": "black",
+    "color": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "img/ico/home.png",
+        "selectedIconPath": "img/ico/home-s.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品",
+        "iconPath": "img/ico/product.png",
+        "selectedIconPath": "img/ico/product-s.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "img/ico/activity.png",
+        "selectedIconPath": "img/ico/activity-s.png"
+      },
+      {
+        "pagePath": "pages/discounts/discounts",
+        "text": "优惠券",
+        "iconPath": "img/ico/discounts.png",
+        "selectedIconPath": "img/ico/discounts-s.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "img/ico/user.png",
+        "selectedIconPath": "img/ico/user-s.png"
+      }
+    ]
+  }
+}

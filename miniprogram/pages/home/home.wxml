@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<swiper autoplay='true' interval='1500' duration='300' indicator-dots='true' class='baseswiper'>
+  <block wx:for="{{recList}}" wx:for-item="at" wx:key="id">
+    <swiper-item class='item'>
+      <image src='{{at.imgUrl}}' mode='aspectFit' bindtap='' class='img' />
+    </swiper-item>
+  </block>
+</swiper>
+<text class='text1'>XXX理发店</text>
+<text class='text2'>创造不一样的你</text>
+<text class='text3'>地址: xx市xx街xx号</text>
+<image src='/img/logo.png' mode='aspectFit' class='logo'></image>
+<image class="floor" mode='aspectFill' src="/img/homeFloor.png"></image>
+<view class='mid'>
+  <navigator url=''><view class='midview' >加入会员</view></navigator>
+</view>

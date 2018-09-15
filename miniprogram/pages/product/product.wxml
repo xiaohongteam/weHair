@@ -1,0 +1,18 @@
+<!--pages/product/product.wxml-->
+<view class='content-all'>
+  <view class='left-type'>
+    <block wx:for="{{productTypes}}" wx:for-item='t'>
+    <view class="{{typeClass==t.typeId?'typeColor':''}} type-item" data-type='{{t.typeId}}' bindtap='selectType'>
+      {{t.typeName}}
+    </view>
+    </block>
+  </view>
+  <scroll-view class='right-product' scroll-y='true'>
+  <block wx:for='{{products}}' wx:for-item='p'>
+    <view class='product-item'>
+      <image class='img-style' mode='aspectFit' src='{{p.productImage}}'></image>
+      <text class='msg-style'>{{p.productName}}</text>
+    </view>
+  </block>
+  </scroll-view>
+</view>

@@ -1,0 +1,81 @@
+/* components/discounts/discountsItem.wxss */
+
+.base {
+  position: absolute;
+  margin: 10rpx;
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
+  width: 672rpx;
+  border-radius: 12rpx;
+  background-size: cover;
+}
+
+.text1 {
+  position: absolute;
+  color: rgb(224, 221, 47);
+  font-size: 40rpx;
+  line-height: 40rpx;
+  font-weight: bold;
+  font-family: 宋体;
+  top: 20rpx;
+  left: 20rpx;
+  letter-spacing: 5rpx;
+}
+
+.text2 {
+  position: absolute;
+  color: rgb(194, 194, 191);
+  font-size: 25rpx;
+  line-height: 25rpx;
+  font-family: 宋体;
+  top: 70rpx;
+  left: 25rpx;
+  letter-spacing: 5rpx;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+}
+
+.text3 {
+  position: absolute;
+  color: rgb(224, 221, 47);
+  font-size: 36rpx;
+  line-height: 36rpx;
+  font-weight: bold;
+  font-family: 宋体;
+  top: 160rpx;
+  left: 20rpx;
+  letter-spacing: 5rpx;
+}
+
+.text4 {
+  position: absolute;
+  color: rgb(194, 194, 191);
+  font-size: 22rpx;
+  line-height: 22rpx;
+  text-decoration: line-through;
+  font-family: 宋体;
+  top: 170rpx;
+  right: 400rpx;
+  letter-spacing: 5rpx;
+}
+
+.button {
+  position: absolute;
+  border: 2rpx solid rgb(167, 161, 161);
+  width: 140rpx;
+  border-radius: 18rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  text-align: center;
+  background-color: rgb(41, 39, 39);
+  color: rgb(250, 246, 8);
+  font-size: 20rpx;
+  letter-spacing: 5rpx;
+  right: 10rpx;
+  bottom: 10rpx;
+  opacity: 0.5;
+}

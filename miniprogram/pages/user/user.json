@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+      "orderButton": "/components/orderButton/orderButton"
+    }
+}
